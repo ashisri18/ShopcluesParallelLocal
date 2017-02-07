@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="35" started-at="2016-11-28T13:16:09Z" finished-at="2016-11-28T13:16:10Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="35" started-at="2016-11-28T13:16:09Z" finished-at="2016-11-28T13:16:10Z">
+      <class name="com.shopclues.scripts.PlaceOrderTest">
+        <test-method status="PASS" signature="serverStart()[pri:0, instance:com.shopclues.scripts.PlaceOrderTest@79b4d0f]" name="serverStart" is-config="true" duration-ms="10011" started-at="2016-11-28T18:45:59Z" finished-at="2016-11-28T18:46:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serverStart -->
+        <test-method status="FAIL" signature="setCapability(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.shopclues.scripts.PlaceOrderTest@79b4d0f]" name="setCapability" is-config="true" duration-ms="0" started-at="2016-11-28T18:46:09Z" finished-at="2016-11-28T18:46:09Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'deviceName' is required by @Configuration on method setCapability but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'deviceName' is required by @Configuration on method setCapability but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:355)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:134)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:118)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCapability -->
+        <test-method status="SKIP" signature="findMeAShoe()[pri:0, instance:com.shopclues.scripts.PlaceOrderTest@79b4d0f]" name="findMeAShoe" duration-ms="1" started-at="2016-11-28T18:46:10Z" description="Search any product from home page and then verify search result shows the list of product." finished-at="2016-11-28T18:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findMeAShoe -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.shopclues.scripts.PlaceOrderTest@79b4d0f]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-11-28T18:46:10Z" finished-at="2016-11-28T18:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="serverStop()[pri:0, instance:com.shopclues.scripts.PlaceOrderTest@79b4d0f]" name="serverStop" is-config="true" duration-ms="0" started-at="2016-11-28T18:46:10Z" finished-at="2016-11-28T18:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serverStop -->
+      </class> <!-- com.shopclues.scripts.PlaceOrderTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

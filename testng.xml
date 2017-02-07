@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel ="none" >
+<test name="PlaceOrderTest_2" >
+	  <parameter name="deviceName" value="1837ec59"/> 
+	  <parameter name="version" value="4.4"/>
+	  <parameter name="data" value="TestData.xlsx"/>   
+	  <classes>
+	  		<class name="com.shopclues.scripts.PlaceOrderTest"/>
+	  </classes>
+  </test> 
+ 
+  <!-- <test name="PlaceOrderTest_2" >
+	 <parameter name="deviceName" value="ZX1D633FM5"/>
+	 <parameter name="version" value="5.0.2"/>
+	 <parameter name="data" value="TestData2.xlsx"/>   
+	 <classes>
+			<class name="com.shopclues.scripts.PlaceOrderTest"/>
+	 </classes>
+  </test> -->
+</suite> <!-- Suite -->

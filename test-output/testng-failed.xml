@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="data" value="TestData.xlsx"/>
+  <parameter name="deviceName" value="1837ec59"/>
+  <parameter name="version" value="4.4"/>
+  <test name="PlaceOrderTest_2(failed)" parallel="none">
+    <parameter name="data" value="TestData.xlsx"/>
+    <parameter name="deviceName" value="1837ec59"/>
+    <parameter name="version" value="4.4"/>
+    <classes>
+      <class name="com.shopclues.scripts.PlaceOrderTest">
+        <methods>
+          <include name="serverStop"/>
+          <include name="serverStart"/>
+          <include name="setCapability"/>
+          <include name="findMeAShoe"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.shopclues.scripts.PlaceOrderTest -->
+    </classes>
+  </test> <!-- PlaceOrderTest_2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

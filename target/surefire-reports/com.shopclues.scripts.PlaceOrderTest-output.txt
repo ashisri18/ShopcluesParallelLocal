@@ -1,0 +1,11 @@
+[Appium] Welcome to Appium v1.5.3
+[Appium] Non-default server args:
+[Appium]   address: '127.0.0.1'
+[Appium]   port: 4753
+[Appium]   noReset: true
+[Appium] Deprecated server args:
+[Appium]   --no-reset => --default-capabilities '{"noReset":true}'
+[Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[Appium]   noReset: true
+[Appium] Appium REST http interface listener started on 127.0.0.1:4753
+Server starts programmtically.
